@@ -60,8 +60,8 @@ You’ll also need the [dotenv package](https://www.npmjs.com/package/dotenv) to
 
 **Note**: The [express-session](https://www.npmjs.com/package/express-session) package stores the session data on the client in a cookie. When you are idle on the site for more than a set time, the cookie will expire and you will be required to log in again to start a new session. This is the default behavior and you do not have to do anything to your application other than implement the npm package.
 
-Github Repo:
+Github Repo: https://github.com/coreylevine2000/hw-14-Tech-Blog
 
-Live: https://coreylevine2000.github.io/hw-14-Tech-Blog/
+Live on Heroku: https://salty-anchorage-55707.herokuapp.com/
 
 Images:
