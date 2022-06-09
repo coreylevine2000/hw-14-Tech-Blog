@@ -62,6 +62,6 @@ You’ll also need the [dotenv package](https://www.npmjs.com/package/dotenv) to
 
 Github Repo:
 
-Live: 
+Live: https://coreylevine2000.github.io/hw-14-Tech-Blog/
 
 Images:
