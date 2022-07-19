@@ -1,7 +1,7 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Comment extends Model {};
+class Comment extends Model {}
 
 Comment.init(
     {
@@ -10,16 +10,15 @@ Comment.init(
             allowNull: false,
             primaryKey: true,
             autoIncrement: true,
-          },
+        },
         body: {
             type: DataTypes.STRING,
-        allowNull: false
+            allowNull: false
         },
     },
     {
         sequelize,
-    }
-);
-
-
-module.exports = Comment;
+        }
+    );
+    
+    module.exports = Comment;
